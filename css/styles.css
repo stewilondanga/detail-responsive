@@ -234,11 +234,11 @@ tr:nth-child(even) {
   width: calc(100% / 3);
 }
 
-/*
 th, td {
   height: 40px;
 }
 
+/*
 @media (max-width: 767px) {
   .container {
     width: 100%;
