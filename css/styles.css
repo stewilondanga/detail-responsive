@@ -170,10 +170,11 @@ summary:focus::before {
   content: "-";
 }
 
-/*
 .content {
   padding: 0 16px;
 }
+
+/*
 .content::before, .content::after {
   width: 16px;
   display: block;
