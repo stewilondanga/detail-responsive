@@ -244,10 +244,11 @@ th, td {
     height: auto;
   }
 
-  /*  .container:first-of-type {
+  .container:first-of-type {
     box-shadow: none;
   }
 
+  /*
   .article {
     padding: 50px 0 100px 0;
   }
