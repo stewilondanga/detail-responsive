@@ -166,11 +166,11 @@ summary::before {
   content: "+";
 }
 
-/*
 summary:focus::before {
   content: "-";
 }
 
+/*
 .content {
   padding: 0 16px;
 }
