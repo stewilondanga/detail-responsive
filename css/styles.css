@@ -155,7 +155,6 @@ summary {
   box-shadow: 0 8px 6px -6px #dbdbdb;
 }
 
-/*
 summary::before {
   top: 50%;
   right: 8px;
@@ -166,6 +165,8 @@ summary::before {
   transform: translate(0, -50%);
   content: "+";
 }
+
+/*
 summary:focus::before {
   content: "-";
 }
