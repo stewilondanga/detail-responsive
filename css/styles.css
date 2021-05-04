@@ -114,7 +114,6 @@ body {
   width: 100%;
 }
 
-/*
 .container {
   width: 50%;
   height: 100%;
@@ -122,6 +121,7 @@ body {
   overflow-y: auto;
 }
 
+/*
 .container:first-of-type {
   box-shadow: 2px 0 0 0 #e6e6e6;
 }
