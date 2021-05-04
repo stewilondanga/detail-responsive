@@ -192,13 +192,13 @@ summary:focus::before {
   border-left: 16px solid #dbdbdb;
 }
 
-/*
 .content div {
   padding: 8px;
   border: 1px solid #e6e6e6;
   border-top: none;
 }
 
+/*
 p, ol, table {
   font-size: 14px;
 }
