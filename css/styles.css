@@ -174,7 +174,6 @@ summary:focus::before {
   padding: 0 16px;
 }
 
-/*
 .content::before, .content::after {
   width: 16px;
   display: block;
@@ -182,6 +181,8 @@ summary:focus::before {
   border-bottom: 8px solid transparent;
   content: "";
 }
+
+/*
 .content::before {
   left: 0;
   border-right: 16px solid #dbdbdb;
