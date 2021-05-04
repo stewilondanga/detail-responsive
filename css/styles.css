@@ -238,9 +238,8 @@ th, td {
   height: 40px;
 }
 
-/*
 @media (max-width: 767px) {
-  .container {
+  /*.container {
     width: 100%;
     height: auto;
   }
