@@ -146,7 +146,6 @@ details {
   padding: 16px 0;
 }
 
-/*
 summary {
   background: #f1f1f1;
   padding: 8px;
@@ -155,6 +154,8 @@ summary {
   outline: none;
   box-shadow: 0 8px 6px -6px #dbdbdb;
 }
+
+/*
 summary::before {
   top: 50%;
   right: 8px;
