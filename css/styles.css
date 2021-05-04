@@ -230,11 +230,11 @@ tr:nth-child(even) {
   width: 16%;
 }
 
-/*
 .attribute th {
   width: calc(100% / 3);
 }
 
+/*
 th, td {
   height: 40px;
 }
