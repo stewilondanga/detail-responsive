@@ -202,13 +202,13 @@ p, ol, table {
   font-size: 14px;
 }
 
-/*
 ol {
   margin: 0;
   padding: 0 16px;
   list-style-position: outside;
 }
 
+/*
 table {
   width: 100%;
   border-collapse: collapse;
