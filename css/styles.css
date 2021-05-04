@@ -226,11 +226,11 @@ tr:nth-child(even) {
   width: 20%;
 }
 
-/*
 .browser th:nth-child(n+2) {
   width: 16%;
 }
 
+/*
 .attribute th {
   width: calc(100% / 3);
 }
