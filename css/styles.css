@@ -239,12 +239,12 @@ th, td {
 }
 
 @media (max-width: 767px) {
-  /*.container {
+  .container {
     width: 100%;
     height: auto;
   }
 
-  .container:first-of-type {
+  /*  .container:first-of-type {
     box-shadow: none;
   }
 
