@@ -198,11 +198,11 @@ summary:focus::before {
   border-top: none;
 }
 
-/*
 p, ol, table {
   font-size: 14px;
 }
 
+/*
 ol {
   margin: 0;
   padding: 0 16px;
