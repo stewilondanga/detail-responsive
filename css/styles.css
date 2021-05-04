@@ -1,4 +1,8 @@
 body {
+  font-family: "Lato";
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +109,150 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+.brl, .brl_100 {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.brl_100 {
+  width: 100%;
+}
+
+
+.container {
+  width: 50%;
+  height: 100%;
+  padding: 0 16px;
+  overflow-y: auto;
+}
+
+.container:first-of-type {
+  box-shadow: 2px 0 0 0 #e6e6e6;
+}
+
+.title {
+  background: #fff;
+  width: 100%;
+  padding: 16px 0;
+  top: 0;
+  left: 0;
+  display: block;
+  position: sticky;
+  text-align: center;
+  z-index: 10;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.article {
+  padding: 100px 0 0 0;
+}
+
+details {
+  padding: 16px 0;
+}
+
+summary {
+  background: #f1f1f1;
+  padding: 8px;
+  font-weight: 900;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 8px 6px -6px #dbdbdb;
+}
+summary::before {
+  top: 50%;
+  right: 8px;
+  display: block;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 900;
+  transform: translate(0, -50%);
+  content: "+";
+}
+summary:focus::before {
+  content: "-";
+}
+
+.content {
+  padding: 0 16px;
+}
+.content::before, .content::after {
+  width: 16px;
+  display: block;
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  content: "";
+}
+.content::before {
+  left: 0;
+  border-right: 16px solid #dbdbdb;
+}
+.content::after {
+  right: 0;
+  border-left: 16px solid #dbdbdb;
+}
+.content div {
+  padding: 8px;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+}
+
+p, ol, table {
+  font-size: 14px;
+}
+
+ol {
+  margin: 0;
+  padding: 0 16px;
+  list-style-position: outside;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid #a3a3a3;
+}
+
+tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+.browser th:nth-child(1) {
+  width: 20%;
+}
+
+.browser th:nth-child(n+2) {
+  width: 16%;
+}
+
+.attribute th {
+  width: calc(100% / 3);
+}
+
+th, td {
+  height: 40px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+
+  .container:first-of-type {
+    box-shadow: none;
+  }
+
+  .article {
+    padding: 50px 0 100px 0;
+  }
 }
 
 #contact h1 {
