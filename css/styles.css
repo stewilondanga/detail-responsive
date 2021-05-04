@@ -104,13 +104,13 @@ body {
   transition-delay: 0.4s;
 }
 
-/*
 .brl, .brl_100 {
   display: block;
   position: relative;
   float: left;
 }
 
+/*
 .brl_100 {
   width: 100%;
 }
